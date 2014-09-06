@@ -1,0 +1,4 @@
+---
+# handlers file for openwrt-ddns
+- name: restart ddns
+  raw: /etc/init.d/ddns restart
